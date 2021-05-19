@@ -7,8 +7,8 @@
 */
 /*
 off white: e5e0dd
-lime green: cbd64a
-navy blue: 0c2943
+lime green: d4de29
+navy blue: 0d2943
 */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -738,10 +738,10 @@ button,
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-  background-color: #cbd64a;
+  background-color: #d4de29;
   border-radius: 6px;
   border: 0;
-  color: #0c2943 !important;
+  color: #0d2943 !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 700;
@@ -757,7 +757,7 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: #d5d0cd; color: #0c2943 !important;}
+    background-color: #d5d0cd; color: #0d2943 !important;}
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
@@ -786,6 +786,13 @@ button,
 #header h1 {
   font-size: 3.25em;
   margin: 0 0 0.55em 0; }
+  
+#header img {
+  width: 55em;
+  position: relative;
+  top: -2em;
+  max-width: 100%;
+}
 
 #header p {
   font-size: 1.35em;
@@ -842,8 +849,17 @@ button,
         
 /* Calls to Action */
 #ctas {
-  display: flex; }
-  #ctas a.button {margin-right: 1em}
+  display: flex; 
+  flex-wrap: wrap;}
+  #ctas a.button {
+  	margin: 0 1em 1em 0;
+  }
+/* 
+  @media screen and (max-width: 360px) {
+    #ctas a.button {
+      bottom: 1.25em;
+      left: 1.25em; } }
+ */
 
 /* Footer */
 #footer {
