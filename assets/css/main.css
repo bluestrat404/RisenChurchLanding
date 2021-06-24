@@ -799,7 +799,7 @@ button,
   line-height: 1.65em; }
 
 #header a {
-  color: inherit; }
+  color: rba(255,255,255,.8); }
 
 @media screen and (max-width: 736px) {
   #header h1 {
